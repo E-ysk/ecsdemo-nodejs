@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: ecsdemo-nodejs
 spec:
+  type: NodePort
   selector:
     app: ecsdemo-nodejs
   ports:
